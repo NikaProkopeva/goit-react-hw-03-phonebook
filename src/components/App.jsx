@@ -84,7 +84,7 @@ class App extends Component {
     const { filter } = this.state;
     return (
       <div className="container">
-        <h1>Phone Book</h1>
+        <h1>Phonebook</h1>
         <ContactForm onSubmit={this.formSubmit} />
 
         <h2>Contacts</h2>
